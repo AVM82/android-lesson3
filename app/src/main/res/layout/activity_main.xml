@@ -9,8 +9,16 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="444dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/load_text" />
+
 </LinearLayout>
